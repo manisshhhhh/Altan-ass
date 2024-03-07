@@ -7,6 +7,7 @@ import App from './App';
 import FeaturedModelsScreen from './screens/FeaturedModelsScreen';
 import AddModelScreen from './screens/AddModelScreen';
 import ModelScreen from './screens/ModelScreen';
+import { ModelProvider } from './context/ModelContext';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -14,7 +15,7 @@ const router = createBrowserRouter(
       <Route index={true} path='/' element={<HomeScreen />} />
       <Route path='/featured' element={<FeaturedModelsScreen />} />
       <Route path='/addModel' element={<AddModelScreen />} />
-      <Route path='/model/:id' element={<ModelScreen/>} />
+      <Route path='/model/:id' element={<ModelScreen />} />
     </Route>
   )
 )
@@ -22,7 +23,9 @@ const router = createBrowserRouter(
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <ModelProvider>
+      <RouterProvider router={router} />
+    </ModelProvider>
   </React.StrictMode>
 );
 
