@@ -6,6 +6,7 @@ import ModelContext from "../context/ModelContext";
 
 const Models = () => {
     const { models } = useContext(ModelContext);
+    // console.log(models);
   return (
       <div className="grid-container">
           {models.map((item,index) => {
@@ -15,7 +16,6 @@ const Models = () => {
                   name={item.name}
               /></Link>
           })}
-      
       </div>
   )
 }

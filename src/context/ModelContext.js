@@ -7,6 +7,7 @@ export const ModelProvider = ({ children }) => {
 
     const [isLoading, setIsLoading] = useState(true);
     const [models, setModels] = useState([]);
+    const [featuredModels, setFeaturedModels] = useState([]);
 
     useEffect(() => {
         fetchModels();
@@ -19,7 +20,17 @@ export const ModelProvider = ({ children }) => {
         const data = await response.json();
         setModels(data);
         setIsLoading(false);
+        fetchFeaturedModels();
     }
+
+    // fetch featured Models 
+    const fetchFeaturedModels = async () => {
+        const response = await fetch(`/models?_sort=-rating&_limit=3`);
+
+        const data = await response.json();
+        setFeaturedModels(data);
+    }
+
 
     const addModel = async (newModel) => {
         const response = await fetch('/models', {
@@ -55,6 +66,7 @@ export const ModelProvider = ({ children }) => {
         addModel,
         getModel,
         isLoading,
+        featuredModels,
     }}>
         {children}
     </ModelContext.Provider>

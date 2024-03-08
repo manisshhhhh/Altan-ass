@@ -6,7 +6,7 @@
       "name": "Image Recognition",
       "image": "/images/image1.jpg",
       "description": "Image recognition, a vital aspect of computer vision, automatically identifies and categorizes objects or patterns in digital images. It s essential in healthcare, automotive, retail, and security.Algorithms analyze pixel data to extract features for classification.Object detection locates multiple objects, crucial for autonomous vehicles.Image classification assigns labels to images, aiding medical diagnoses and retail inventory.Segmentation delineates object boundaries, important in medical imaging and augmented reality.Challenges include image variability and computational costs.Deep learning, particularly Convolutional Neural Networks(CNNs), dominates image recognition, with transfer learning adapting pre- trained models.Its a powerful technology advancing with computer vision and machine learning innovations.",
-      "rating": 4.5
+      "rating": "9.5"
     },
     {
       "id": "f1aa",
@@ -22,7 +22,7 @@
       "name": "Speech Recognition",
       "image": "/images/image3.png",
       "description": "Speech recognition technology has rapidly transformed the way we interact with computers and devices, enabling seamless communication between humans and machines through spoken language. By converting spoken words into text, speech recognition systems allow users to dictate commands, transcribe conversations, and interact with applications using their voice.  One of the most notable applications of speech recognition is in virtual assistants like Siri, Alexa, and Google Assistant. These voice-activated platforms leverage sophisticated algorithms to understand and respond to user queries, providing personalized assistance, information retrieval, and task execution in real-time.  Speech recognition technology also plays a vital role in accessibility, empowering individuals with disabilities to navigate digital interfaces and access information using spoken commands. For those with mobility impairments or visual impairments, speech recognition offers a hands-free alternative to traditional input methods, enhancing independence and facilitating greater participation in the digital world.  In addition to consumer applications, speech recognition finds extensive use in various industries, including healthcare, finance, and customer service. From transcribing medical dictations to enabling voice-controlled banking services, speech recognition systems streamline workflows, improve efficiency, and enhance user experiences across diverse domains. As speech recognition technology continues to evolve, its potential to revolutionize human-computer interaction and drive innovation remains profound.",
-      "rating": "6"
+      "rating": "9.1"
     },
     {
       "id": "d43d",
@@ -30,7 +30,7 @@
       "name": "Fraud Detection",
       "image": "/images/image4.jpg",
       "description": "Fraud detection employs various technologies and techniques to identify and prevent fraudulent activities across different domains. Machine learning and AI analyze data to spot patterns and anomalies indicative of fraud, while data analytics tools scrutinize transactional data for irregularities. Behavioral analysis tracks deviations from typical user behavior, while anomaly detection flags unexpected activities. Biometric authentication verifies user identities, and geolocation tracking confirms transaction locations. Fraud rules and models incorporate known fraud patterns, and collaborative filtering identifies collusion or account takeover attempts. Real-time monitoring enables swift intervention upon detecting suspicious behavior. Integration with external data sources enhances identity verification. Ultimately, effective fraud detection relies on a blend of advanced technology, data analysis, and human oversight to safeguard against financial loss and reputational damage.",
-      "rating": "8"
+      "rating": "7"
     },
     {
       "id": "3bf7",
@@ -70,7 +70,7 @@
       "name": "Time Series Forecasting",
       "image": "/images/image8.png",
       "description": "Time series forecasting is a data analysis technique used to predict future values based on past observations ordered chronologically. It finds applications in various fields such as finance, economics, weather forecasting, stock market analysis, and resource management.  The process typically involves the following steps:  Data Collection and Preprocessing: Historical data points are collected and organized in chronological order. Preprocessing may involve handling missing values, smoothing outliers, and ensuring data consistency.  Exploratory Data Analysis (EDA): EDA helps understand the underlying patterns, trends, and seasonality within the time series data through visualization and statistical analysis.  Model Selection: Various forecasting models such as Autoregressive Integrated Moving Average (ARIMA), Exponential Smoothing (ETS), Seasonal Decomposition of Time Series (STL), and machine learning algorithms like Long Short-Term Memory (LSTM) networks are considered based on the characteristics of the data.  Model Training and Validation: The selected model is trained on historical data and validated using a separate dataset or cross-validation techniques to evaluate its performance.  Forecasting: Once the model is trained and validated, it is used to generate predictions for future time periods.  Evaluation: The accuracy of the forecasts is assessed using metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), or Root Mean Squared Error (RMSE).  Time series forecasting enables businesses and organizations to make informed decisions, anticipate future trends, and optimize resource allocation based on predicted outcomes.",
-      "rating": "6"
+      "rating": "9"
     }
   ]
 }
