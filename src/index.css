@@ -66,6 +66,7 @@ body{
   .navbar li{
     list-style: none;
     color:rgb(222, 211, 211);
+    font-weight: bold;
   }
 
   .nav-link{
@@ -122,6 +123,7 @@ body{
   }
 
  .details{
+  width: 30vw;
   display: flex;
   flex-direction: column;
   line-height: 30px;
@@ -150,4 +152,12 @@ body{
    color: #b7b6b6;
    position: absolute;
    bottom: 10px;
+ }
+
+ .footer-container{
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:gray;
  }

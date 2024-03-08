@@ -35,11 +35,6 @@ export const ModelProvider = ({ children }) => {
         setModels([data, ...models]);
     }
 
-    // const getModel = async (id) => {
-    //     return await fetch(`/models/${id}`, 'GET');
-    //     // return models.find((model) => model.id === id);
-    // }
-
     const getModel = async (id) => {
         try {
             const response = await fetch(`/models/${id}`);
