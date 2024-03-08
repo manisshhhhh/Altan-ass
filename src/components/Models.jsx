@@ -9,7 +9,7 @@ const Models = () => {
   return (
       <div className="grid-container">
           {models.map((item,index) => {
-              return <Link to={`/model/:${item.id}`}> <Model
+              return <Link to={`/model/${item.id}`}> <Model
                   key={index}
                   img={item.image}
                   name={item.name}

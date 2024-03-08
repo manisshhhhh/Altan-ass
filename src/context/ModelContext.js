@@ -12,7 +12,7 @@ export const ModelProvider = ({ children }) => {
             username: "john",
             name: 'Image Recognition',
             image: '/images/image1.jpg',
-            description: 'Description for Product 5',
+            description: 'Image recognition, a vital aspect of computer vision, automatically identifies and categorizes objects or patterns in digital images. It s essential in healthcare, automotive, retail, and security.Algorithms analyze pixel data to extract features for classification.Object detection locates multiple objects, crucial for autonomous vehicles.Image classification assigns labels to images, aiding medical diagnoses and retail inventory.Segmentation delineates object boundaries, important in medical imaging and augmented reality.Challenges include image variability and computational costs.Deep learning, particularly Convolutional Neural Networks(CNNs), dominates image recognition, with transfer learning adapting pre- trained models.Its a powerful technology advancing with computer vision and machine learning innovations.',
             rating: 4.5,
         },
         {
@@ -48,9 +48,14 @@ export const ModelProvider = ({ children }) => {
         setModels([newModel, ...models]);
     }
 
+    const getModel = (id) => {
+        return models.find((model) => model.id === id);
+    }
+
     return <ModelContext.Provider value={{
         models,
         addModel,
+        getModel,
     }}>
         {children}
     </ModelContext.Provider>
