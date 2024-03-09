@@ -12,6 +12,8 @@ const AddModelScreen = () => {
     rating:"",
   })
 
+  console.log("re-render");
+
   function handler(event) {
         const { name, value } = event.target;
         
@@ -25,6 +27,15 @@ const AddModelScreen = () => {
   
   const handleSubmit = (event) => {
     event.preventDefault();
+
+    // Count words in the description
+    const wordCount = model.description.split(/\s+/).filter(word => word !== '').length;
+
+    // Check if the word count is less than 100
+    if (wordCount < 50) {
+      alert("Description should be at least 50 words long.");
+      return;
+    }
 
     addModel(model);
 
@@ -41,15 +52,19 @@ const AddModelScreen = () => {
   return (
     <form onSubmit={handleSubmit} className='form-container'>
       <input
-          name='username'
-          placeholder='Enter the usename'
-          value={model.username}
-          onChange={handler}
-          required
+        name='username'
+        type='text'
+        placeholder='Enter the usename'
+        value={model.username}
+        onChange={handler}
+        pattern="[A-Za-z ]+"
+        title="Please enter only alphabetical characters"
+        required
         />
       
         <input
-          name='name'
+        name='name'
+         type='text'
           placeholder='Enter the model name'
           value={model.name}
           onChange={handler}
@@ -57,10 +72,12 @@ const AddModelScreen = () => {
         />
       
       <input
-         name='image'
+          name='image'
           placeholder='Enter the image url'
           value={model.image}
           onChange={handler}
+          pattern="https?://.*"
+          title="Please enter a valid URL starting with http:// or https://"
           required
       />
 
@@ -69,6 +86,7 @@ const AddModelScreen = () => {
           placeholder='Enter the description'
           value={model.description}
           onChange={handler}
+          // minLength="100"
           required
       />
 
@@ -78,6 +96,8 @@ const AddModelScreen = () => {
           type='number'
           value={model.rating}
           onChange={handler}
+          min="0"
+          max="10"
           required
       />
       

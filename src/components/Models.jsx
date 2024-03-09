@@ -5,6 +5,7 @@ import ModelContext from "../context/ModelContext";
 import { useInfiniteQuery } from "react-query";
 import { useIntersection } from "@mantine/hooks";
 
+
 const Models = () => {
     const { models } = useContext(ModelContext);
 
@@ -61,7 +62,7 @@ const Models = () => {
              
             </div>
         
-        <button onClick={() => fetchNextPage()} disabled={isFetchingNextPage}>
+        <button className='btn-primary' onClick={() => fetchNextPage()} disabled={isFetchingNextPage}>
                 {isFetchingNextPage
                     ? 'Loading more...'
                     : (data.pages.length ?? 0) < 4

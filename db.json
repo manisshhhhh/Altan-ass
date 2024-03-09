@@ -127,6 +127,14 @@
       "image": "https://media.istockphoto.com/id/938918098/photo/digital-marketing-businessman-using-modern-interface-payments-online-shopping-and-icon.jpg?s=612x612&w=0&k=20&c=e2-iAyA7y-iH6mJ5_yuhSaGeiBadE39gN0dpyIlq3ks=",
       "description": "LSTM, introduced by Sepp Hochreiter and Jürgen Schmidhuber in 1997, is a type of recurrent neural network (RNN) architecture designed to address the vanishing gradient problem in traditional RNNs. LSTM incorporates specialized memory cells capable of retaining information over long sequences, making it proficient in sequential data tasks like natural language processing, speech recognition, and time series prediction. Its ability to capture long-term dependencies and handle sequences of varying lengths has made LSTM a cornerstone in sequence modeling and generation tasks.",
       "rating": "8"
+    },
+    {
+      "id": "940c",
+      "username": "Manish",
+      "name": "GPT-3",
+      "image": "https:///media.istockphoto.com/id/511072562/photo/trade-networking.jpg?s=612x612&w=0&k=20&c=x8_CXxY1T_iqlprf1dk2qGW7NavX0Aq2MW10JuWzh-M=",
+      "description": "GPT-3, developed by OpenAI, is one of the largest language models, boasting 175 billion parameters. Released in 2020, it's capable of generating remarkably human-like text across diverse contexts. GPT-3's immense size enables it to understand and generate coherent text, making it proficient in tasks like language translation, text generation, and code completion. Its ability to comprehend context and generate contextually appropriate responses makes it a powerful tool for various natural language understanding tasks.",
+      "rating": "7"
     }
   ]
 }
