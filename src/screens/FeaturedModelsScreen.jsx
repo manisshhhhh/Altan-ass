@@ -2,12 +2,13 @@ import { useContext } from "react"
 import ModelContext from "../context/ModelContext";
 import { Link } from "react-router-dom";
 import Model from "../components/Model";
+import Spinner from '../components/shared/Spinner'
 
 const FeaturedModelsScreen = () => {
-  const { featuredModels } = useContext(ModelContext);
-  console.log(featuredModels);
+  const { featuredModels , featuredLoading} = useContext(ModelContext);
 
-  return (
+  
+  return featuredLoading ? <Spinner/> :  (
     <>
       <h1 style={{color:'gray' , margin:'30px'}}>Top rated Models by users</h1>
        <div className="feature-container">

@@ -8,6 +8,8 @@ import FeaturedModelsScreen from './screens/FeaturedModelsScreen';
 import AddModelScreen from './screens/AddModelScreen';
 import ModelScreen from './screens/ModelScreen';
 import { ModelProvider } from './context/ModelContext';
+import { QueryClient, QueryClientProvider } from 'react-query';
+const queryClient = new QueryClient();
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -23,9 +25,11 @@ const router = createBrowserRouter(
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ModelProvider>
-      <RouterProvider router={router} />
-    </ModelProvider>
+    <QueryClientProvider client={queryClient}>
+      <ModelProvider>
+        <RouterProvider router={router} />
+      </ModelProvider>
+    </QueryClientProvider>
   </React.StrictMode>
 );
 

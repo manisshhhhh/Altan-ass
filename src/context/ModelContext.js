@@ -6,6 +6,7 @@ const ModelContext = createContext();
 export const ModelProvider = ({ children }) => {
 
     const [isLoading, setIsLoading] = useState(true);
+    const [featuredLoading, setFeaturedLading] = useState(true);
     const [models, setModels] = useState([]);
     const [featuredModels, setFeaturedModels] = useState([]);
 
@@ -29,6 +30,7 @@ export const ModelProvider = ({ children }) => {
 
         const data = await response.json();
         setFeaturedModels(data);
+        setFeaturedLading(false);
     }
 
 
@@ -67,6 +69,7 @@ export const ModelProvider = ({ children }) => {
         getModel,
         isLoading,
         featuredModels,
+        featuredLoading,
     }}>
         {children}
     </ModelContext.Provider>

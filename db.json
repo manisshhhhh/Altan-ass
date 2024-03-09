@@ -71,6 +71,62 @@
       "image": "/images/image8.png",
       "description": "Time series forecasting is a data analysis technique used to predict future values based on past observations ordered chronologically. It finds applications in various fields such as finance, economics, weather forecasting, stock market analysis, and resource management.  The process typically involves the following steps:  Data Collection and Preprocessing: Historical data points are collected and organized in chronological order. Preprocessing may involve handling missing values, smoothing outliers, and ensuring data consistency.  Exploratory Data Analysis (EDA): EDA helps understand the underlying patterns, trends, and seasonality within the time series data through visualization and statistical analysis.  Model Selection: Various forecasting models such as Autoregressive Integrated Moving Average (ARIMA), Exponential Smoothing (ETS), Seasonal Decomposition of Time Series (STL), and machine learning algorithms like Long Short-Term Memory (LSTM) networks are considered based on the characteristics of the data.  Model Training and Validation: The selected model is trained on historical data and validated using a separate dataset or cross-validation techniques to evaluate its performance.  Forecasting: Once the model is trained and validated, it is used to generate predictions for future time periods.  Evaluation: The accuracy of the forecasts is assessed using metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), or Root Mean Squared Error (RMSE).  Time series forecasting enables businesses and organizations to make informed decisions, anticipate future trends, and optimize resource allocation based on predicted outcomes.",
       "rating": "9"
+    },
+    {
+      "id": "ded1",
+      "username": "Rahul Singh",
+      "name": "BERT ",
+      "image": "https://media.istockphoto.com/id/1334591614/photo/man-using-digital-tablet-online-connect-to-internet-banking-currency-exchange-online-shopping.webp?b=1&s=170667a&w=0&k=20&c=uVgjqk6ZUldPjFOUX35vNMUzJZ6tz_IDV7apr1AWhII=",
+      "description": "BERT, introduced by Google in 2018, revolutionized natural language processing (NLP) by introducing bidirectional context understanding. It utilizes Transformer architecture to pre-train on large text corpora, learning contextual representations of words. BERT excels in various NLP tasks like sentiment analysis, question answering, and text classification. Its bidirectional nature enables it to capture intricate relationships within sentences, enhancing comprehension and accuracy.",
+      "rating": "6"
+    },
+    {
+      "id": "8f2e",
+      "username": "Mark",
+      "name": "GPT-3",
+      "image": "https://media.istockphoto.com/id/1349094915/photo/businessman-using-computer-laptop-for-learning-online-internet-lessons-e-learning-education.webp?b=1&s=170667a&w=0&k=20&c=vPtu3BYtkLi5Oq2IJwSFZjQrRExHu8yXfQ8xPboercw=",
+      "description": "GPT-3, developed by OpenAI, is one of the largest language models, boasting 175 billion parameters. Released in 2020, it's capable of generating remarkably human-like text across diverse contexts. GPT-3's immense size enables it to understand and generate coherent text, making it proficient in tasks like language translation, text generation, and code completion. Its ability to comprehend context and generate contextually appropriate responses makes it a powerful tool for various natural language understanding tasks.",
+      "rating": "8"
+    },
+    {
+      "id": "698a",
+      "username": "Manish",
+      "name": "YOLO",
+      "image": "https://media.istockphoto.com/id/1923495330/photo/technology-hologram-and-visual-screen-business-people-show-hologram-of-smart-city-digital.jpg?s=612x612&w=0&k=20&c=DNhIBYmcj7UJbiY-oFWQbYFFeASINR44dhbuYcJLnxk=",
+      "description": "YOLO is a state-of-the-art real-time object detection model introduced by Joseph Redmon and his team in 2016. Unlike traditional object detection approaches, YOLO divides images into a grid and predicts bounding boxes and class probabilities directly. This enables YOLO to detect objects in images with impressive speed, making it suitable for applications like self-driving cars, surveillance systems, and augmented reality.",
+      "rating": "3"
+    },
+    {
+      "id": "706a",
+      "username": "Saniya Jha",
+      "name": "DeepDream",
+      "image": "https://media.istockphoto.com/id/1213223956/photo/north-and-south-america-red-connection-lines-copy-space-global-business-pandemic-computer.webp?b=1&s=170667a&w=0&k=20&c=d5rPBwD5ml4OcgPpLNASsxz2c-8OvktAijVLeAkTi0c=",
+      "description": "DeepDream, developed by Google in 2015, is a fascinating image generation technique based on convolutional neural networks (CNNs). It alters images to enhance patterns and generate dream-like visuals by iteratively modifying the input image to maximize the activation of certain neurons. DeepDream has been used for artistic purposes, creating surreal and psychedelic images, as well as for understanding CNN behavior and feature visualization. Its unique approach to image modification has sparked creativity and research in the field of computer vision and generative art.",
+      "rating": "7"
+    },
+    {
+      "id": "56ce",
+      "username": "Dinesh Prajapti",
+      "name": "ResNet",
+      "image": "https://media.istockphoto.com/id/981901768/photo/cloud-computing.jpg?s=612x612&w=0&k=20&c=3NsYwep7g_v4R10iI0DFefJJOhw39tEOHJwqvtCrYHk=",
+      "description": "ResNet, introduced by Kaiming He et al. in 2015, addressed the problem of vanishing gradients in deep convolutional neural networks (CNNs). By introducing skip connections or shortcuts, ResNet enables the training of extremely deep networks, surpassing previous limitations. This architecture facilitates the construction of deeper models with hundreds or even thousands of layers, allowing for more efficient feature learning and higher accuracy. ResNet has become a fundamental building block in various computer vision tasks, including image classification, object detection, and image segmentation.",
+      "rating": "4"
+    },
+    {
+      "id": "c3a6",
+      "username": "Geetika Singh",
+      "name": "VGG (Visual Geometry Group)",
+      "image": "https://media.istockphoto.com/id/844488274/photo/website-front-end-designer-reviewing-wireframe-layout-mockup-ar-screen.jpg?s=612x612&w=0&k=20&c=V8pvSN_OrP0H48TKaaD55rYm408L_YiNvf6-PHROb0Q=",
+      "description": "VGG, developed by the Visual Geometry Group at the University of Oxford in 2014, is known for its simple and uniform architecture. Comprising several convolutional layers followed by max-pooling layers, VGG achieves impressive performance on image classification tasks. Despite its straightforward design, VGG demonstrates remarkable effectiveness in feature extraction, making it a popular choice for transfer learning and feature visualization. Its architecture's simplicity and effectiveness have led to widespread adoption in academic research and practical applications.",
+      "rating": "8.5"
+    },
+    {
+      "id": "d086",
+      "username": "Aniruth Chohan",
+      "name": "LSTM (Long Short-Term Memory)",
+      "image": "https://media.istockphoto.com/id/938918098/photo/digital-marketing-businessman-using-modern-interface-payments-online-shopping-and-icon.jpg?s=612x612&w=0&k=20&c=e2-iAyA7y-iH6mJ5_yuhSaGeiBadE39gN0dpyIlq3ks=",
+      "description": "LSTM, introduced by Sepp Hochreiter and Jürgen Schmidhuber in 1997, is a type of recurrent neural network (RNN) architecture designed to address the vanishing gradient problem in traditional RNNs. LSTM incorporates specialized memory cells capable of retaining information over long sequences, making it proficient in sequential data tasks like natural language processing, speech recognition, and time series prediction. Its ability to capture long-term dependencies and handle sequences of varying lengths has made LSTM a cornerstone in sequence modeling and generation tasks.",
+      "rating": "8"
     }
   ]
 }
