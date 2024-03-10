@@ -143,6 +143,14 @@
       "image": "https://media.istockphoto.com/id/511072562/photo/trade-networking.webp?b=1&s=170667a&w=0&k=20&c=YRTy17k_XJ1Q-zzx7rG8PO4-EUT53wMDBHRgrwDexkg=",
       "description": "BERTSUM is an AI model developed for text summarization tasks, leveraging the BERT architecture. It incorporates BERT's bidirectional contextual understanding to generate concise and informative summaries of input documents. By fine-tuning on summarization datasets, BERTSUM achieves state-of-the-art performance in abstractive and extractive summarization, providing accurate and coherent summaries across various domains and languages.",
       "rating": "7"
+    },
+    {
+      "id": "6451",
+      "username": "Gunjan Verma",
+      "name": "AlphaGo",
+      "image": "https://media.istockphoto.com/id/1433540156/photo/ai-network-plexus-technology-background-3d-illustration.jpg?s=612x612&w=0&k=20&c=f3Ha1DCgD7KPjHHJ7vcR21E8K4hCuRJmnt-mGgXBz_A=",
+      "description": "AlphaGo, a creation of DeepMind, stunned the world with its groundbreaking performance in the ancient board game Go. Developed by Google's parent company, Alphabet Inc., AlphaGo represents a pinnacle of artificial intelligence achievement. It combines cutting-edge techniques such as deep neural networks and Monte Carlo tree search algorithms to play Go at a superhuman level. At the heart of AlphaGo's success are its neural networks, trained on vast datasets of expert games and self-play, enabling it to evaluate board positions and predict optimal moves. The Monte Carlo tree search algorithm further refines its decision-making process by simulating thousands of potential moves and selecting the most promising ones based on their predicted outcomes. Through reinforcement learning, AlphaGo continuously improves its strategies by learning from both successes and failures, evolving into a formidable opponent. In 2016, AlphaGo made headlines by defeating world champion Go player Lee Sedol in a five-game match, marking a historic milestone in AI research. Beyond its dominance in Go, AlphaGo's success has spurred advancements in deep learning and reinforcement learning, inspiring further exploration of AI's capabilities in solving complex real-world problems.",
+      "rating": "6"
     }
   ]
 }
