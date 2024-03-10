@@ -32,8 +32,8 @@ const ModelScreen = () => {
       <div className='first'>
         <img className='model-img' src={model.image} alt="" />
         <div className='details'>
-            <h2  className='model-info'>{model.name}</h2>
-          <h2 style={{ fontSize: '20px' }} className='model-title'>Rating:{model.rating}</h2>
+          <h2  className='model-info'>{model.name}</h2>
+          <h2  className='model-title'>Rating:{model.rating}</h2>
           <h2 style={{ fontSize: '15px',color:'black' }} className='model-title username'>Contributed by: {model.username}</h2>
         </div>
       </div>

@@ -10,7 +10,7 @@ const FeaturedModelsScreen = () => {
   
   return featuredLoading ? <Spinner/> :  (
     <>
-      <h1 style={{color:'black' , margin:'30px'}}>Top rated Models by users</h1>
+      <h1 className='title' style={{color:'black' , margin:'30px'}}>Top rated Models by users</h1>
        <div className="feature-container">
           {featuredModels.map((item,index) => {
               return <Link to={`/model/${item.id}`}> <Model

@@ -135,6 +135,14 @@
       "image": "https:///media.istockphoto.com/id/511072562/photo/trade-networking.jpg?s=612x612&w=0&k=20&c=x8_CXxY1T_iqlprf1dk2qGW7NavX0Aq2MW10JuWzh-M=",
       "description": "GPT-3, developed by OpenAI, is one of the largest language models, boasting 175 billion parameters. Released in 2020, it's capable of generating remarkably human-like text across diverse contexts. GPT-3's immense size enables it to understand and generate coherent text, making it proficient in tasks like language translation, text generation, and code completion. Its ability to comprehend context and generate contextually appropriate responses makes it a powerful tool for various natural language understanding tasks.",
       "rating": "7"
+    },
+    {
+      "id": "3b08",
+      "username": "Neha Malav",
+      "name": "BERTSUM ",
+      "image": "https://media.istockphoto.com/id/511072562/photo/trade-networking.webp?b=1&s=170667a&w=0&k=20&c=YRTy17k_XJ1Q-zzx7rG8PO4-EUT53wMDBHRgrwDexkg=",
+      "description": "BERTSUM is an AI model developed for text summarization tasks, leveraging the BERT architecture. It incorporates BERT's bidirectional contextual understanding to generate concise and informative summaries of input documents. By fine-tuning on summarization datasets, BERTSUM achieves state-of-the-art performance in abstractive and extractive summarization, providing accurate and coherent summaries across various domains and languages.",
+      "rating": "7"
     }
   ]
 }
