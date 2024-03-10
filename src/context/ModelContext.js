@@ -16,7 +16,7 @@ export const ModelProvider = ({ children }) => {
 
     // fetch Models 
     const fetchModels = async () => {
-        const response = await fetch(`/models`)
+        const response = await fetch(`http://localhost:5000/models`)
 
         const data = await response.json();
         setModels(data);
@@ -26,7 +26,7 @@ export const ModelProvider = ({ children }) => {
 
     // fetch featured Models 
     const fetchFeaturedModels = async () => {
-        const response = await fetch(`/models?_sort=-rating&_limit=3`);
+        const response = await fetch(`http://localhost:5000/models?_sort=-rating&_limit=3`);
 
         const data = await response.json();
         setFeaturedModels(data);
@@ -35,7 +35,7 @@ export const ModelProvider = ({ children }) => {
 
 
     const addModel = async (newModel) => {
-        const response = await fetch('/models', {
+        const response = await fetch('http://localhost:5000/models', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -50,7 +50,7 @@ export const ModelProvider = ({ children }) => {
 
     const getModel = async (id) => {
         try {
-            const response = await fetch(`/models/${id}`);
+            const response = await fetch(`http://localhost:5000/models/${id}`);
             if (!response.ok) {
                 throw new Error('Failed to fetch model');
             }
