@@ -74,4 +74,12 @@ const models = [
     },
 ];
 
+
+// "start": "react-scripts start",
+// "build": "react-scripts build",
+// "test": "react-scripts test",
+// "eject": "react-scripts eject",
+// "server": "json-server --watch db.json --port 5000",
+// "dev": "concurrently \"npm run server\" \"npm start\""
+
 export default models;
