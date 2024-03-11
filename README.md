@@ -1,7 +1,11 @@
 ## Demo
+#### Home page
 ![Screenshot 2024-03-11 144136](https://github.com/manisshhhhh/Altan-ass/assets/102871173/f786a7f8-86d6-4838-998a-c40413f25a60)
+#### Single Model Page
 ![Screenshot 2024-03-11 151941](https://github.com/manisshhhhh/Altan-ass/assets/102871173/e0742ab0-bf39-4590-993c-5c57ebcfdd12)
+#### Featured Models Page
 ![Screenshot 2024-03-11 152008](https://github.com/manisshhhhh/Altan-ass/assets/102871173/b650f728-b23f-4331-ba60-33f6163338a1)
+#### Adding new Model page
 ![Screenshot 2024-03-11 152025](https://github.com/manisshhhhh/Altan-ass/assets/102871173/66d1f1f7-fd78-4a2f-9652-5ff5242f0d7e)
 
 
