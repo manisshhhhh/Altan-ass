@@ -78,7 +78,13 @@ Deployed on Vercel
 **Server:** Node, json-server
 
 
-## Atlan
+## Description
 
 This is my react application that showcases the various models deployed by organisations and developers alike. The application will go live as-is. We can add new Models , can sea featured models that is basis on the rating of the models also user can go to single Model and explore it.
 
+
+## Load time testing
+React Profiler
+
+## Optimization
+I impliment pagination and infinite scrolling in Home page to render all the models, using react-query.
