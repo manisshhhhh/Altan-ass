@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+## Demo
+#### Home page
+![Screenshot 2024-03-11 144136](https://github.com/manisshhhhh/Altan-ass/assets/102871173/f786a7f8-86d6-4838-998a-c40413f25a60)
+#### Single Model Page
+![Screenshot 2024-03-11 151941](https://github.com/manisshhhhh/Altan-ass/assets/102871173/e0742ab0-bf39-4590-993c-5c57ebcfdd12)
+#### Featured Models Page
+![Screenshot 2024-03-11 152008](https://github.com/manisshhhhh/Altan-ass/assets/102871173/b650f728-b23f-4331-ba60-33f6163338a1)
+#### Adding new Model page
+![Screenshot 2024-03-11 152025](https://github.com/manisshhhhh/Altan-ass/assets/102871173/66d1f1f7-fd78-4a2f-9652-5ff5242f0d7e)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Install Dependencies 
 
-In the project directory, you can run:
+```bash
+  npm install
+```
 
-### `npm start`
+## Librery
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Reactjs
+```bash
+  npx create-react-app
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### Pakages
+- concurrently
+- cors
+- json-server
+- react-query
+- react-router-dom
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## API Reference
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Get all items
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```http
+  https://project-data-3gbm.onrender.com/models
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+#### Get item
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```http
+  https://project-data-3gbm.onrender.com/models/${id}
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Backend 
+#### fake mark backend 
+[json-server](https://www.npmjs.com/package/json-server)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Deployed json-server on render
+[deployed json-server](https://project-data-3gbm.onrender.com/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Deployment
 
-### Code Splitting
+To deploy this project run
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Deployed on Vercel
+[App-Link](https://altan-ass.vercel.app/)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Scripts
+#### frontend: http://localhost:3000
+```bash
+  npm start
+```
 
-### Making a Progressive Web App
+#### backend: http://localhost:8000
+```bash
+  npm run server
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#### starting both frontend and backend together
+```bash
+  npm run dev
+```
+## Tech Stack
 
-### Advanced Configuration
+**Client:** React, React-context-api, CSS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Server:** Node, json-server
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Description
 
-### `npm run build` fails to minify
+This is my react application that showcases the various models deployed by organisations and developers alike. The application will go live as-is. We can add new Models , can sea featured models that is basis on the rating of the models also user can go to single Model and explore it.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Load time testing
+React Profiler
+
+## Optimization
+I impliment pagination and infinite scrolling in Home page to render all the models, using react-query.
