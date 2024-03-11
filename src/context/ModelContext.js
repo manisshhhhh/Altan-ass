@@ -26,7 +26,7 @@ export const ModelProvider = ({ children }) => {
 
     // fetch featured Models 
     const fetchFeaturedModels = async () => {
-        const response = await fetch(`https://project-data-3gbm.onrender.com/models?_sort=-rating&_limit=3`);
+        const response = await fetch(`https://project-data-3gbm.onrender.com/models?_sort=rating&_order=desc&_limit=3`);
 
         const data = await response.json();
         setFeaturedModels(data);
